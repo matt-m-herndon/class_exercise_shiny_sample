@@ -7,3 +7,11 @@ Description: Simulates the distribution of the sample means and thetas when
     sampling from a population.
 Encoding: UTF-8
 LazyData: true
+Imports:
+    matrixcalc,
+    shinyMatrix,
+    viridis,
+    ggplot2,
+    mvtnorm,
+    grid,
+  
