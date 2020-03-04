@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(shinyMatrix)
 library(matrixcalc)
-source(sprintf('%s.R',system.file("R", "distsim", package = "distsim")))
+library(distsim)
 
 # default sigma
 sigma = matrix(c(100,40,40,400), 2, 2)
