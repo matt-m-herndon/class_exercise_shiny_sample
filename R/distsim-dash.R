@@ -1,7 +1,7 @@
 library(shinydashboard)
 library(shinyMatrix)
 library(matrixcalc)
-source("R/distsim.R")
+#source("R/distsim.R")
 
 # default sigma
 sigma = matrix(c(100,40,40,400), 2, 2)
@@ -67,7 +67,7 @@ server <- function(input, output, session) {
     }
     if (is.positive.definite(sigma)){
       mui = c(input$mu1, input$mu2)
-      xbarthetadist(n=input$nnumber, iter=input$iternumber, mu=mui, sigma=sigma)
+      #xbarthetadist(n=input$nnumber, iter=input$iternumber, mu=mui, sigma=sigma)
     }else{
       print('Sigma is not positive definite!')
     }
