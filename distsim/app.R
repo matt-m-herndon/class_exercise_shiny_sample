@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(shinyMatrix)
 library(matrixcalc)
-source("R/distsim.R")
+source("../R/distsim.R")
 
 # default sigma
 sigma = matrix(c(100,40,40,400), 2, 2)
@@ -74,4 +74,5 @@ server <- function(input, output, session) {
     }
   })
 }
+
 shinyApp(ui, server)

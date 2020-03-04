@@ -9,6 +9,8 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     matrixcalc,
+    shiny,
+    shinyDashboard,
     shinyMatrix,
     viridis,
     ggplot2,
