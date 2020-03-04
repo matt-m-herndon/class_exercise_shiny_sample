@@ -7,6 +7,8 @@ Description: Simulates the distribution of the sample means and thetas when
     sampling from a population.
 Encoding: UTF-8
 LazyData: true
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
 Imports:
     matrixcalc,
     shiny,
@@ -16,4 +18,4 @@ Imports:
     ggplot2,
     mvtnorm,
     grid,
-  
+RoxygenNote: 7.0.2
