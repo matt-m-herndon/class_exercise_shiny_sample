@@ -1,7 +1,7 @@
 library(shinydashboard)
 library(shinyMatrix)
 library(matrixcalc)
-source("R/distsim.R",local=TRUE)
+source("R/distsim.R")
 
 # default sigma
 sigma = matrix(c(100,40,40,400), 2, 2)
