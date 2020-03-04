@@ -10,7 +10,7 @@ LazyData: true
 Imports:
     matrixcalc,
     shiny,
-    shinyDashboard,
+    shinydashboard,
     shinyMatrix,
     viridis,
     ggplot2,
